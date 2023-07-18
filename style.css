@@ -1,0 +1,45 @@
+/* google font connection */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,800&family=Work+Sans:wght@400;500;600;700;900&display=swap');
+/* custom property */
+:root {
+  --text-gradient: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
+/* common shared styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+.text-gradient {
+  background: var(--text-gradient);
+}
+.btn {
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: 0;
+  border-radius: 20px;
+  padding: 21px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.section-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.text-gray-18 {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.text-gray-20 {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
