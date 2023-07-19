@@ -1,10 +1,17 @@
+.hide {
+  display: none;
+}
 /*XX-Large devices (larger desktops, 1400px and up) */
 @media (max-width: 1400px) {
   main,
   .nav-container,
   .footer-container,
+  .gamer-container,
   .header-container {
     padding: 10px 80px;
+  }
+  footer {
+    padding: 1rem 5rem;
   }
   .nav-container {
   }
@@ -19,17 +26,41 @@
     font-weight: 800;
   }
 }
+@media screen and (max-width: 1024px) {
+  .badge-img {
+    max-width: 200px;
+  }
+}
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
+  main,
+  .nav-container,
+  .footer-container,
+  .gamer-container,
   .header-container {
+    padding: 10px 30px;
+  }
+  .header-container,
+  .play-game {
     flex-direction: column-reverse;
   }
-  .nav-container {
+  .nav-container,
+  .gamer-container {
     flex-direction: column;
     gap: 20px;
   }
-  .header-content-container {
-    margin-top: 5rem;
+  .play-game {
+    align-items: center;
+  }
+  .play-game-content {
+    text-align: center;
+  }
+  .gamer-content {
+    text-align: center;
+  }
+  .gamer-container {
+    margin-top: 2rem;
+    margin-left: 1rem;
   }
   header {
     background-size: 39rem 28rem;
@@ -40,6 +71,12 @@
     margin-top: 1rem;
     width: 80%;
   }
+  .gamer-img {
+    flex-basis: 65%;
+  }
+  .gamer-content {
+    font-size: 20px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
@@ -47,9 +84,45 @@
     flex-direction: column;
     gap: 20px;
   }
+  .play-game {
+    justify-content: center;
+    align-items: center;
+  }
+  .funny-content-container {
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+  }
+  .play-game {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .main-img {
+    max-width: 300px;
+  }
+  .badge-img {
+    max-width: 200px;
+    left: 150px;
+  }
+  footer {
+    padding: 1rem 15rem;
+  }
+  .footer-navigation,
+  .terms-container {
+    width: 18rem;
+  }
+  .terms-container ul {
+    gap: 2rem;
+  }
+  .footer-navigation ul {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .footer-navigation ul li {
+    margin-right: 10px;
+  }
 }
-@media screen and (max-width: 0) and (max-width: 576px) {
-}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .nav-container {
@@ -62,7 +135,7 @@
     gap: 20px;
   }
   header {
-    background-size: 30rem 24rem;
+    background-size: 30rem 20rem;
   }
   nav li {
     margin-left: 0 !important;
@@ -96,5 +169,34 @@
   }
   .go-rougue {
     margin-left: 5px;
+  }
+  .description-content {
+    margin: 18px 0px;
+  }
+  .funny-content-container {
+    grid-template-columns: repeat(1, 300px);
+    align-content: center;
+  }
+  .section-title {
+    color: #0b0223;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  footer {
+    padding: 1rem 2rem;
+  }
+
+  .social-icons-container {
+    width: 18rem;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 431px) {
+  .header-title {
+    font-size: 8vw !important;
+  }
+  .header-title + .text-gradient {
+    font-size: 8vw;
   }
 }
