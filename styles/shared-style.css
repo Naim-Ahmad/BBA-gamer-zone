@@ -3,17 +3,37 @@
 /* custom property */
 :root {
   --text-gradient: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --primary-color: #ff42a5;
 }
 /* common shared styles */
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
   font-family: 'Work Sans', sans-serif;
 }
+nav,
+header,
+main,
+.footer-container {
+  max-width: 1400px;
+  margin: auto;
+}
+.text-primary {
+  color: var(--primary-color);
+}
 .text-gradient {
   background: var(--text-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .btn {
   border-radius: 48px;
