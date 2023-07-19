@@ -2,11 +2,7 @@
 nav {
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.nav-container {
-  /* padding: 10px 0px; */
-}
-.logo-container {
-}
+
 .logo-container img {
   margin-right: 1rem;
   object-fit: contain;
@@ -93,9 +89,7 @@ header {
     rgba(255, 66, 165, 0.03) 100%
   );
 }
-.gamer-img {
-  /* flex-basis: 50%; */
-}
+
 .gamer-content {
   max-width: 634px;
   text-align: right;
