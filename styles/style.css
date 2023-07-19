@@ -1,6 +1,9 @@
 /* navbar styles  */
 nav {
-  padding: 38px 0;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container {
+  /* padding: 10px 0px; */
 }
 .logo-container {
 }
@@ -34,4 +37,50 @@ nav li a {
 }
 .follow-us svg {
   width: 20px;
+}
+/* header styles */
+header {
+  background-image: url('../images/Group\ 14.png');
+  background-repeat: no-repeat;
+  height: 626px;
+  background-size: contain;
+}
+.header-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-img {
+  width: 48%;
+}
+.header-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-title + .text-gradient {
+  font-size: 95px;
+  font-weight: 800;
+}
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--text-gradient);
+  margin: 0px 10px;
+}
+.description-content {
+  margin: 40px 0px;
+}
+.description-content p {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  gap: 8px;
+}
+.go-rougue {
+  background: #4ec5f7;
+  margin-left: 24px;
 }
