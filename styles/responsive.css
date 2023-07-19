@@ -27,6 +27,7 @@
 @media screen and (max-width: 1024px) {
   .badge-img {
     max-width: 200px;
+    bottom: -68px;
   }
 }
 /* Large devices (desktops, 992px and up) */
@@ -82,6 +83,9 @@
     flex-direction: column;
     gap: 20px;
   }
+  .header-content {
+    margin-top: 7rem;
+  }
   .play-game {
     justify-content: center;
     align-items: center;
@@ -99,8 +103,9 @@
     max-width: 300px;
   }
   .badge-img {
-    max-width: 200px;
+    max-width: 185px;
     left: 150px;
+    height: 200px;
   }
   footer {
     padding: 1rem 15rem;
