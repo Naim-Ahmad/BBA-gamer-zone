@@ -88,6 +88,7 @@ header {
     rgba(255, 66, 165, 0.03) 0%,
     rgba(255, 66, 165, 0.03) 100%
   );
+  padding: 30px 0px;
 }
 
 .gamer-content {
@@ -123,35 +124,7 @@ header {
 .funny-video .section-title {
   margin-bottom: 10px;
 }
-.play-game {
-  gap: 90px;
-  margin-top: 100px;
-}
-.badge-img {
-  max-width: 238px;
-  height: auto;
-  position: absolute;
-  bottom: -100px;
-  right: -20%;
-  z-index: 2;
-}
-.main-img {
-  max-width: 527px;
-}
-.play-game-img {
-  position: relative;
-}
-.play-game-content {
-  max-width: 483px;
-}
-.icon-section {
-  margin-top: 130px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-bottom: 130px;
-}
+
 .funny-img {
   position: relative;
 }
@@ -192,6 +165,37 @@ header {
   color: white;
   margin-bottom: 1rem;
 }
+/* play game section styles */
+.play-game {
+  gap: 90px;
+  margin-top: 100px;
+}
+.badge-img {
+  max-width: 238px;
+  height: auto;
+  position: absolute;
+  bottom: -80px;
+  right: -20%;
+  z-index: 2;
+}
+.main-img {
+  max-width: 527px;
+}
+.play-game-img {
+  position: relative;
+}
+.play-game-content {
+  max-width: 483px;
+}
+/* icon section styles */
+.icon-section {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 100px;
+}
 .icon {
   display: flex;
   gap: 8px;
@@ -201,10 +205,10 @@ header {
   box-sizing: content-box;
   border-width: 2px;
   border: 2px solid white;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .icon-text {
-  transition: color 0.5s;
+  transition: 0.3s;
 }
 .icon:hover .icon-text {
   color: #ff42a5;
@@ -215,6 +219,7 @@ header {
 .icon img {
   width: 50px;
 }
+/* footer section styles */
 footer {
   background: #0b0223;
   padding: 120px 300px;
@@ -275,5 +280,5 @@ footer {
 .copy-write {
   color: white;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 70px;
 }
